@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reed_Solomon_Algorithm", "Reed Solomon Algorithm\Reed_Solomon_Algorithm.csproj", "{A8406059-D574-422F-8C7F-17362BC80C54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8406059-D574-422F-8C7F-17362BC80C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8406059-D574-422F-8C7F-17362BC80C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8406059-D574-422F-8C7F-17362BC80C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8406059-D574-422F-8C7F-17362BC80C54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F9F5625-E39A-4E50-AF68-62166FE494BE}
+	EndGlobalSection
+EndGlobal
