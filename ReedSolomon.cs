@@ -136,7 +136,7 @@
                                 {
                                     sigma = Decoder.SigmaValues(syndromeSequence, errorCount, alphas);
                                     errorLocations = Decoder.ErrorLocations(sigma, alphas);
-                                    //ReedSolomon.DisplayErrorLocations(errorLocations);
+                                    //DisplayHelper.DisplayErrorLocations(errorLocations);
                                     errorValues = Decoder.ErrorValues(errorLocations, syndromeSequence, alphas);
                                     errorPolynomial = Decoder.ErrorPolynomial(errorLocations, errorValues, n);
                                     decodedCodewordPolynomial = Modulo2Math.Add2Polynomials(errorPolynomial, corruptedCodewordPolynomial.ToArray());
